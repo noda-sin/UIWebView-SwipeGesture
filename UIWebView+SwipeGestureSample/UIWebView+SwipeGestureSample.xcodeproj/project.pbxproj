@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBFD3AD17479726004F765D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBFD3AC17479726004F765D /* UIKit.framework */; };
+		2EBFD3AF17479726004F765D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBFD3AE17479726004F765D /* Foundation.framework */; };
+		2EBFD3B117479726004F765D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EBFD3B017479726004F765D /* CoreGraphics.framework */; };
+		2EBFD3B717479726004F765D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFD3B517479726004F765D /* InfoPlist.strings */; };
+		2EBFD3B917479726004F765D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFD3B817479726004F765D /* main.m */; };
+		2EBFD3BD17479726004F765D /* SNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFD3BC17479726004F765D /* SNAppDelegate.m */; };
+		2EBFD3BF17479726004F765D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFD3BE17479726004F765D /* Default.png */; };
+		2EBFD3C117479726004F765D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFD3C017479726004F765D /* Default@2x.png */; };
+		2EBFD3C317479726004F765D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFD3C217479726004F765D /* Default-568h@2x.png */; };
+		2EBFD3C617479726004F765D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBFD3C417479726004F765D /* MainStoryboard.storyboard */; };
+		2EBFD3C917479726004F765D /* SNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFD3C817479726004F765D /* SNViewController.m */; };
+		2EBFD3D1174797D1004F765D /* UIWebVIew+SwipeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFD3D0174797D1004F765D /* UIWebVIew+SwipeGesture.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EBFD3A917479726004F765D /* UIWebView+SwipeGestureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIWebView+SwipeGestureSample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EBFD3AC17479726004F765D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2EBFD3AE17479726004F765D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EBFD3B017479726004F765D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2EBFD3B417479726004F765D /* UIWebView+SwipeGestureSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWebView+SwipeGestureSample-Info.plist"; sourceTree = "<group>"; };
+		2EBFD3B617479726004F765D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EBFD3B817479726004F765D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EBFD3BA17479726004F765D /* UIWebView+SwipeGestureSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SwipeGestureSample-Prefix.pch"; sourceTree = "<group>"; };
+		2EBFD3BB17479726004F765D /* SNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAppDelegate.h; sourceTree = "<group>"; };
+		2EBFD3BC17479726004F765D /* SNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAppDelegate.m; sourceTree = "<group>"; };
+		2EBFD3BE17479726004F765D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2EBFD3C017479726004F765D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2EBFD3C217479726004F765D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2EBFD3C517479726004F765D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2EBFD3C717479726004F765D /* SNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNViewController.h; sourceTree = "<group>"; };
+		2EBFD3C817479726004F765D /* SNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNViewController.m; sourceTree = "<group>"; };
+		2EBFD3CF174797D1004F765D /* UIWebVIew+SwipeGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebVIew+SwipeGesture.h"; sourceTree = "<group>"; };
+		2EBFD3D0174797D1004F765D /* UIWebVIew+SwipeGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebVIew+SwipeGesture.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EBFD3A617479726004F765D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBFD3AD17479726004F765D /* UIKit.framework in Frameworks */,
+				2EBFD3AF17479726004F765D /* Foundation.framework in Frameworks */,
+				2EBFD3B117479726004F765D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EBFD3A017479726004F765D = {
+			isa = PBXGroup;
+			children = (
+				2EBFD3B217479726004F765D /* SNSwipeGestureSample */,
+				2EBFD3AB17479726004F765D /* Frameworks */,
+				2EBFD3AA17479726004F765D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EBFD3AA17479726004F765D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFD3A917479726004F765D /* UIWebView+SwipeGestureSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EBFD3AB17479726004F765D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFD3AC17479726004F765D /* UIKit.framework */,
+				2EBFD3AE17479726004F765D /* Foundation.framework */,
+				2EBFD3B017479726004F765D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EBFD3B217479726004F765D /* SNSwipeGestureSample */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFD3BB17479726004F765D /* SNAppDelegate.h */,
+				2EBFD3BC17479726004F765D /* SNAppDelegate.m */,
+				2EBFD3C417479726004F765D /* MainStoryboard.storyboard */,
+				2EBFD3C717479726004F765D /* SNViewController.h */,
+				2EBFD3C817479726004F765D /* SNViewController.m */,
+				2EBFD3CF174797D1004F765D /* UIWebVIew+SwipeGesture.h */,
+				2EBFD3D0174797D1004F765D /* UIWebVIew+SwipeGesture.m */,
+				2EBFD3B317479726004F765D /* Supporting Files */,
+			);
+			path = SNSwipeGestureSample;
+			sourceTree = "<group>";
+		};
+		2EBFD3B317479726004F765D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EBFD3B417479726004F765D /* UIWebView+SwipeGestureSample-Info.plist */,
+				2EBFD3B517479726004F765D /* InfoPlist.strings */,
+				2EBFD3B817479726004F765D /* main.m */,
+				2EBFD3BA17479726004F765D /* UIWebView+SwipeGestureSample-Prefix.pch */,
+				2EBFD3BE17479726004F765D /* Default.png */,
+				2EBFD3C017479726004F765D /* Default@2x.png */,
+				2EBFD3C217479726004F765D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EBFD3A817479726004F765D /* UIWebView+SwipeGestureSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EBFD3CC17479726004F765D /* Build configuration list for PBXNativeTarget "UIWebView+SwipeGestureSample" */;
+			buildPhases = (
+				2EBFD3A517479726004F765D /* Sources */,
+				2EBFD3A617479726004F765D /* Frameworks */,
+				2EBFD3A717479726004F765D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIWebView+SwipeGestureSample";
+			productName = SNSwipeGestureSample;
+			productReference = 2EBFD3A917479726004F765D /* UIWebView+SwipeGestureSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EBFD3A117479726004F765D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Noda Shimpei";
+			};
+			buildConfigurationList = 2EBFD3A417479726004F765D /* Build configuration list for PBXProject "UIWebView+SwipeGestureSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EBFD3A017479726004F765D;
+			productRefGroup = 2EBFD3AA17479726004F765D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EBFD3A817479726004F765D /* UIWebView+SwipeGestureSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EBFD3A717479726004F765D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBFD3B717479726004F765D /* InfoPlist.strings in Resources */,
+				2EBFD3BF17479726004F765D /* Default.png in Resources */,
+				2EBFD3C117479726004F765D /* Default@2x.png in Resources */,
+				2EBFD3C317479726004F765D /* Default-568h@2x.png in Resources */,
+				2EBFD3C617479726004F765D /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EBFD3A517479726004F765D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBFD3B917479726004F765D /* main.m in Sources */,
+				2EBFD3BD17479726004F765D /* SNAppDelegate.m in Sources */,
+				2EBFD3C917479726004F765D /* SNViewController.m in Sources */,
+				2EBFD3D1174797D1004F765D /* UIWebVIew+SwipeGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EBFD3B517479726004F765D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBFD3B617479726004F765D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2EBFD3C417479726004F765D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EBFD3C517479726004F765D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EBFD3CA17479726004F765D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EBFD3CB17479726004F765D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EBFD3CD17479726004F765D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNSwipeGestureSample/UIWebView+SwipeGestureSample-Prefix.pch";
+				INFOPLIST_FILE = "SNSwipeGestureSample/UIWebView+SwipeGestureSample-Info.plist";
+				PRODUCT_NAME = "UIWebView+SwipeGestureSample";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EBFD3CE17479726004F765D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SNSwipeGestureSample/UIWebView+SwipeGestureSample-Prefix.pch";
+				INFOPLIST_FILE = "SNSwipeGestureSample/UIWebView+SwipeGestureSample-Info.plist";
+				PRODUCT_NAME = "UIWebView+SwipeGestureSample";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EBFD3A417479726004F765D /* Build configuration list for PBXProject "UIWebView+SwipeGestureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBFD3CA17479726004F765D /* Debug */,
+				2EBFD3CB17479726004F765D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EBFD3CC17479726004F765D /* Build configuration list for PBXNativeTarget "UIWebView+SwipeGestureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EBFD3CD17479726004F765D /* Debug */,
+				2EBFD3CE17479726004F765D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EBFD3A117479726004F765D /* Project object */;
+}
