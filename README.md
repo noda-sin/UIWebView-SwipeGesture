@@ -12,7 +12,7 @@ Usage
       UIWebView *webView = [[UIWebView alloc] init];
       [webView useSwipeGesture];
 
-Please check the included demo project for more options.
+Please check the included demo project.
 
 License
 -------
